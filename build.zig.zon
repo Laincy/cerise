@@ -1,0 +1,17 @@
+.{
+    .name = .cerise,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0xd18a033031165100, // Changing this has security and trust implications.
+
+    // Tracks the earliest Zig version that the package considers to be a
+    // supported use case.
+    .minimum_zig_version = "0.14.0",
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}

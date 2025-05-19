@@ -1,0 +1,5 @@
+**/*.o
+**/*.s
+
+.zig-cache/
+zig-out/
